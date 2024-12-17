@@ -14,13 +14,13 @@ const App = () => {
       <div>
         <h1 className="game-heading water-background">Tic-Tac-Toe</h1>
         <div className="square-wrapper">
-          {renderFrom.map((arr, rowIndex) => {
+          {renderFrom.map((arr, rowIndex) => (
             <div key={rowIndex}>
               {arr.map((e, colIndex) => {
                 return <Square key={`${rowIndex}-${colIndex}`} value={e} />;
               })}
-            </div>;
-          })}
+            </div>
+          ))}
         </div>
       </div>
     </div>
