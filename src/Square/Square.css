@@ -4,3 +4,7 @@
   background-color: #4b405f;
   border-radius: 5px;
 }
+
+.square:hover {
+  cursor: pointer;
+}
